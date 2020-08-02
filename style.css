@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'bm';
+    src: url('bmspa___-webfont.woff2') format('woff2'),
+         url('bmspa___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4ACAD9;
+}
+/*--HEADER-- */
+.logo {
+    color:#4ACAD9;
+}
+.flex-container {
+    font-family: 'bm';
+    background: #303840;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 50px;
+}
+.menu-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.menu-nav a {
+    text-decoration: none;
+    padding: 23px;
+    color: white;
+    font-size: 18px;
+}
+.menu-nav a:hover{
+    background: #BF1A0B;
+}
+/*--FIM HEADER--*/
+
+/*--CAPA--*/
+
+#imagem_fundo {
+    background-image: url("img/rsz_fundo2.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+#titulo {
+    font-size: 45px;
+    text-shadow: 2px 3px black;
+    color: white;
+    padding-top: 20%;
+    margin-top: 0;
+    font-family: 'bm';
+}
+#subtitulo {
+    text-shadow: 1px 2px black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#acao {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+#acao:hover {
+    border: 0;
+    background-color: #BF1A0B;
+}
+/*---FIM CAPA*/
+
+section {
+    padding: 20px;
+    float: left;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.tit {
+    font-family: 'bm';
+    font-size: 30px;
+    color: #383D47;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.coluna img {
+    height: 360px;
+    margin-bottom: 100px;
+}
+.introducao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+    text-align: left;
+    background-color: #4acbd9f3 ;
+}
+.tipos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+}
+.tip {
+    font-size: 22px;
+    color: #d61504;
+}
+.importancia {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.penso {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2F2F2;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#assinatura {
+    font-family: 'bm';
+    font-size: 40px;
+    color: #383D47;
+    text-align: center;
+}
+footer {
+    background-color: #4ACAD9;
+    float: left;
+    text-align: center;
+    font-family: 'bm';
+    margin-left: 50%;
+    margin-right: 50%;
+}
